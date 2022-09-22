@@ -1,0 +1,26 @@
+.containercentro{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 100vh;
+}
+
+.image{
+    align-items: flex-start;
+    margin: 40px;
+}
+
+.text{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    align-items: flex-end;
+    align-self: center;
+    margin: 100px;
+}

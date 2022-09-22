@@ -1,0 +1,30 @@
+.fase1{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh; 
+}
+.texto1{
+    margin-top: 180px;
+    width: 50%;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform:  none
+}
+.image1{
+    margin: 200px;
+    align-items: center;
+    
+}
+.image2{
+    margin: 200px;
+    align-items: center;
+    
+}
+
+

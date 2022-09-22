@@ -1,0 +1,42 @@
+.containernav{
+    padding: .9rem;
+    background: rgb(153,167,167);
+    background: linear-gradient(0deg, rgba(153,167,167,1) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.titulo{
+    color: white;
+    font-Weight: 400;
+    text-decoration: none;
+}
+.options{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    width: 100%;
+    top: -700px;
+    left: -2000px;
+}
+.opciones{
+    
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+@media(min-width: 768px){
+        .burguer{
+    display: none;
+    }
+    
+}
+@media(max-width: 768px){
+    
+    .opciones{
+        display: none;
+    }
+}
