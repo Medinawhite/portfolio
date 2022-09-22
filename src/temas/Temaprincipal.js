@@ -1,8 +1,7 @@
-import React from 'react';
-import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
-let theme = createTheme();
-theme = responsiveFontSizes(theme);
+import { createTheme } from '@mui/material/styles';
+
+
 
 export const TemaPrincipal= createTheme({
   palette: {

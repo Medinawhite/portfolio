@@ -5,6 +5,7 @@
 }
 
 .image{
+    align-self: center;
     align-items: flex-start;
     margin: 40px;
 }
