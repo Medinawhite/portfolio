@@ -5,8 +5,9 @@ import persona4 from "../imagenes/persona4.png";
 import './home.css'
 import { motion } from "framer-motion"
 export default function ParallaxPrincipal(){
+
     return (
-        <Parallax className="imageprincipal" bgImage={image2}  >
+        <Parallax strength={200} className="imageprincipal" bgImage={image2}  >
                     <div className='fase1' style={{height:'100%', width:'100%'}}>
                         <motion.div className="image1"
                             initial={{opacity: 0, scale:0.5}}
@@ -17,8 +18,6 @@ export default function ParallaxPrincipal(){
                             initial={{x:1000}}
                             animate={{x:0}}
                             transition={{duration: 1}}
-                            whileInView={{ opacity: 1 }}
-                            viewport={{ once: false }}
                             >
                             <h3 className='texto1' type='text' style={{size: '28px',
                                                                 color: '#FFFFFF',

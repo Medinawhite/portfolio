@@ -7,17 +7,21 @@ import {
 } from "framer-motion";
 
 import CentroPrincipal from './centropagina.js';
-import Tarjetas from "./tarjetas";
+import Tarjetas from "./tarjetas.js";
 import ParallaxPrincipal from "./Principal";
+import FullStack from "./fullstack";
+import Skills from "./skills";
+
 
 function useParallax(value, distance) {
     return useTransform(value, [0, 1], [-distance, distance]);
 }
 
 
+
 export default function Home(){
     const { scrollYProgress } = useScroll();
-    const y = useParallax(scrollYProgress, 1);
+    const y = useParallax(scrollYProgress, 0);
 
     return (
         <>
@@ -28,7 +32,13 @@ export default function Home(){
                 <motion.div style={{ y }}><CentroPrincipal/></motion.div>
                 </section>
                 <section>
-                <motion.div style={{ y }}><Tarjetas  /></motion.div>
+                <motion.div style={{ y }}><FullStack/></motion.div>
+                </section>
+                <section>
+                <motion.div style={{ y }}><Skills/></motion.div>
+                </section>
+                <section>
+                <motion.div style={{ y }}><Tarjetas/></motion.div>
                 </section>
         </>
     )

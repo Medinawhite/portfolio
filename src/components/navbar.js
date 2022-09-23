@@ -29,7 +29,7 @@ export default function Navbar  () {
 
 
   return (
-      <AppBar position="sticky" theme={TemaPrincipal} >
+    <AppBar position="sticky" theme={TemaPrincipal} color='transparent' >
       <Container maxWidth="xl">
         <Toolbar >
                 <Typography className="title" variant="h6" noWrap component="a" href="/"
@@ -68,9 +68,9 @@ export default function Navbar  () {
               </Menu>
             </Box>
             <Box   sx={{  display: { xs: 'none', md: 'flex' } }}>
-            <Button  color='inherit'>PROYECTOS</Button>
               <Button  color='inherit'>SOBRE MI</Button>
               <Button to='tarjetas' color='inherit'>CV</Button>
+              <Button  color='inherit'>PROYECTOS</Button>
               <Button href='about'color='inherit'>CONTACTO</Button>
             </Box>
         </Toolbar>

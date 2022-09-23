@@ -7,10 +7,10 @@ import React from 'react';
 
 function App() {
   return (
-    <React.Fragment className="App">
+    <div className="App">
         <Navbar/>
         <Route path={'/'} component={Home} />
-    </React.Fragment>
+    </div>
   );
 }
 

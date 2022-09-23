@@ -1,14 +1,14 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import persona4 from '../imagenes/persona1.png'
-import './centro.css'
-import image4 from "../imagenes/image4.jpg";
+import image4 from "../imagenes/image9.jpg";
+import './fullstack.css'
 
 
-export default function centroPrincipal() {
-    return (
-        <Parallax bgImage={image4} strength={100}>
-            <div className="containercentro">
+export default function Skills(){
+    return(
+        <Parallax className="imagefull" bgImage={image4} strength={100}>
+            <div className="containerfull">
+                <h1>FULL STACK</h1>
                 <div className="text" >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -16,7 +16,6 @@ export default function centroPrincipal() {
                 It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
-                <div className="image"><img src={persona4} alt='principal'/></div>
             </div>
         </Parallax>
     )
