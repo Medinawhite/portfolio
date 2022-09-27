@@ -28,15 +28,19 @@
     text-decoration: none;
     margin-right: 10px;
 }
-@media(min-width: 768px){
-        .burguer{
-    display: none;
-    }
-    
-}
+
 @media(max-width: 768px){
     
     .opciones{
         display: none;
     }
 }
+
+.nav-item .active{
+    color: white;
+}
+.nav-item a:hover{
+    color: white;
+}
+
+

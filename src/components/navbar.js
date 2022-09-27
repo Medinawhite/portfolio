@@ -9,6 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Container from '@mui/material/Container';
 import {TemaPrincipal} from '../temas/Temaprincipal.js'
+import { Link } from "react-scroll";
+import './navbar.css'
 
 
 
@@ -61,17 +63,17 @@ export default function Navbar  () {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
               >
-                <MenuItem   onClick={handleClose}>Sobre Mi</MenuItem>
-                <MenuItem   onClick={handleClose}>Proyectos</MenuItem>
-                <MenuItem   onClick={handleClose}>CV</MenuItem>
-                <MenuItem   onClick={handleClose}>Contacto</MenuItem>
+                <MenuItem   onClick={handleClose}><Link to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></MenuItem>
+                <MenuItem   onClick={handleClose}><Link to="Skills" spy={true} smooth={true} offset={0} duration={50}>SKILLS</Link></MenuItem>
+                <MenuItem   onClick={handleClose}><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></MenuItem>
+                <MenuItem   onClick={handleClose}><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></MenuItem>
               </Menu>
             </Box>
             <Box   sx={{  display: { xs: 'none', md: 'flex' } }}>
-              <Button  color='inherit'>SOBRE MI</Button>
-              <Button to='tarjetas' color='inherit'>CV</Button>
-              <Button  color='inherit'>PROYECTOS</Button>
-              <Button href='about'color='inherit'>CONTACTO</Button>
+              <Button className="nav-item"  color='inherit'><Link to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="Skills" spy={true} smooth={true} offset={0} duration={50} >SKILLS</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></Button>
             </Box>
         </Toolbar>
       </Container>

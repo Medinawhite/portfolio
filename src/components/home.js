@@ -32,9 +32,6 @@ export default function Home(){
                 <motion.div style={{ y }}><CentroPrincipal/></motion.div>
                 </section>
                 <section>
-                <motion.div style={{ y }}><FullStack/></motion.div>
-                </section>
-                <section>
                 <motion.div style={{ y }}><Skills/></motion.div>
                 </section>
                 <section>

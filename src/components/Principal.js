@@ -7,7 +7,8 @@ import { motion } from "framer-motion"
 export default function ParallaxPrincipal(){
 
     return (
-        <Parallax strength={200} className="imageprincipal" bgImage={image2}  >
+        <div>
+            <Parallax strength={200} className="imageprincipal" bgImage={image2}  >
                     <div className='fase1' style={{height:'100%', width:'100%'}}>
                         <motion.div className="image1"
                             initial={{opacity: 0, scale:0.5}}
@@ -29,5 +30,6 @@ export default function ParallaxPrincipal(){
                         </motion.div>
                     </div>
                 </Parallax>
+            </div>
     );
 }
