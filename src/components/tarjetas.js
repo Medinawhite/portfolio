@@ -18,12 +18,12 @@ export default function Tarjetas(){
         <div id='tarjetas'>
             <Parallax strength={200} className="imageprincipal" bgImage={image2}>
                     <motion.div  className='container3' ref={ref} initial={{scale: isInView ? 0.2:0}} animate={{ scale: isInView ? 1:0 }}   >
-                        <Card className="card" sx={{ maxWidth: 345  }}>
+                        <Card className="card" >
                             <CardActionArea >
                                 <CardMedia
                                 component="img"
                                 height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                image={image2}
                                 alt="green iguana"
                                 />
                                 <CardContent>
@@ -37,12 +37,12 @@ export default function Tarjetas(){
                                 </CardContent>
                             </CardActionArea>
                         </Card>
-                        <Card  className="card" sx={{ maxWidth: 345 }}>
+                        <Card  className="card" >
                             <CardActionArea>
                                 <CardMedia
                                 component="img"
                                 height="140"
-                                image="/static/images/cards/contemplative-reptile.jpg"
+                                image={image2}
                                 alt="green iguana"
                                 />
                                 <CardContent>

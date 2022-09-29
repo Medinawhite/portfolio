@@ -1,0 +1,68 @@
+
+.containerform {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 20px 18px 0px rgba(0,0,0,.5);
+}
+
+.formBox form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.formBox input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+.formBox input {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    height: 2em;
+
+}
+
+.formBox textarea {
+    width: 80%;
+    resize: none;
+    margin: 1em;
+
+}
+
+.formBox p{
+    color: red;
+}
+
+.formBox div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.formBox label{
+    display: flex;
+    align-self: start;
+    font-size: 2em;
+}

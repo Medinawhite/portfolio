@@ -1,0 +1,54 @@
+
+
+.skillscard{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: white;
+    width: 50em ;
+    height: auto;
+    margin-right: 2em;
+    margin-left: 2em;
+    border-radius: 20px;
+    box-shadow: 3px 12px 22px rgba(0,0,0,.5);
+}
+
+.skillscard h1{
+    align-self: center;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    width: 80%;
+    padding-bottom: 0.5em;
+}
+
+.skillscard img{
+    width: 6em;
+    height: 6em;
+    align-items: center;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.containerskill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center ;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.lista{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.containerskills{
+    min-height: 100vh;
+    min-width: 100vw;
+}

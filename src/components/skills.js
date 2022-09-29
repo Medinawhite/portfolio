@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import image4 from "../imagenes/image9.jpg";
-import './fullstack.css'
+import './skills.css'
 import logo1 from "../logos/Bootstrap_logo.png";
 import logo2 from "../logos/css.png";
 import logo3 from "../logos/express-js.png";
@@ -21,21 +21,40 @@ import logo15 from "../logos/webpack.png";
 
 
 export default function Skills(){
-    const skill=['JavaScript','NodeJs','HTML5' ]
     return(
-        <div id='Skills'>
-            <Parallax className="imagefull" bgImage={image4} strength={100}>
-                <div className="containerfull">
-                    <h1>FrontEnd</h1>
-                        <ul>
-                            <li ><img src='' alt=''></img>Node Js</li>
-                        </ul>
-                </div>
-                <div className="containerfull">
-                    <h1>BackEnd</h1>
-                        <ul>
-                            <li ><img className='' src={logo9} alt='logo'></img>Node Js</li>
-                        </ul>
+        <div id='Skills' className="containerskills">
+            <Parallax className="imagefull"  bgImage={image4} strength={100}>
+                <div className="containerskill">
+                    <div className="skillscard">
+                        <h1>Lenguajes</h1>
+                            <ul className="lista">
+                                <li ><img src={logo6} alt='logo'></img></li>
+                                <li ><img src={logo14} alt='logo'></img></li>
+                            </ul>
+                    </div>
+                    <div className="skillscard">
+                        <h1>FrontEnd</h1>
+                            <ul className="lista">
+                                <li ><img src={logo5} alt='logo'></img></li>
+                                <li ><img src={logo2} alt='logo'></img></li>
+                                <li ><img src={logo11} alt='logo'></img></li>
+                                <li ><img src={logo12} alt='logo'></img></li>
+                                <li ><img src={logo4} alt='logo'></img></li>
+                                <li ><img src={logo15} alt='logo'></img></li>
+                                <li ><img src={logo1} alt='logo'></img></li>
+                                <li ><img src={logo7} alt='logo'></img></li>
+                            </ul>
+                    </div>
+                    <div className="skillscard">
+                        <h1>BackEnd</h1>
+                            <ul className="lista">
+                                <li ><img src={logo9} alt='logo'></img></li>
+                                <li ><img src={logo3} alt='logo'></img></li>
+                                <li ><img src={logo8} alt='logo'></img></li>
+                                <li ><img src={logo10} alt='logo'></img></li>
+                                <li ><img src={logo13} alt='logo'></img></li>
+                            </ul>
+                    </div>
                 </div>
             </Parallax>
         </div>
