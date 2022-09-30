@@ -8,11 +8,18 @@
 
 }
 
-.titulo{
+.nav-item{
     color: white;
-    font-Weight: 400;
-    text-decoration: none;
 }
+.nav-item .active{
+    color: greenyellow;
+    
+}
+.nav-item a:hover{
+    color: greenyellow;
+    padding-top: 0.1em;
+}
+
 .options{
     display: flex;
     margin-left: auto;
@@ -34,11 +41,7 @@
     }
 }
 
-.nav-item .active{
-    color: white;
-}
-.nav-item a:hover{
-    color: white;
-}
+
+
 
 

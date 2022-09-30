@@ -9,7 +9,6 @@ import {
 import CentroPrincipal from './centropagina.js';
 import Tarjetas from "./tarjetas.js";
 import ParallaxPrincipal from "./Principal";
-import FullStack from "./fullstack";
 import Skills from "./skills";
 import Contacto from "./contacto";
 

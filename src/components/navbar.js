@@ -42,7 +42,7 @@ export default function Navbar  () {
                     fontFamily: 'monospace',
                     fontWeight: 700,
                     letterSpacing: '.1rem',
-                    color: 'inherit',
+                    color: 'white',
                     textDecoration: 'none',
                     }}>
                   Alejandro Medina
@@ -69,8 +69,8 @@ export default function Navbar  () {
                 <MenuItem   onClick={handleClose}><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></MenuItem>
               </Menu>
             </Box>
-            <Box   sx={{  display: { xs: 'none', md: 'flex' } }}>
-              <Button className="nav-item"  color='inherit'><Link to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></Button>
+            <Box   className="nav-item"sx={{  display: { xs: 'none', md: 'flex' } }}>
+              <Button className="nav-item" color='inherit' ><Link  to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></Button>
               <Button className="nav-item" color='inherit'><Link to="Skills" spy={true} smooth={true} offset={0} duration={50} >SKILLS</Link></Button>
               <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></Button>
               <Button className="nav-item" color='inherit'><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></Button>

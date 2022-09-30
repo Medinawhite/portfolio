@@ -2,7 +2,6 @@ import React from 'react';
 import {useForm} from "react-hook-form"
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import image4 from "../imagenes/image4.jpg";
 import { Parallax } from "react-parallax";
 import './contacto.css'
