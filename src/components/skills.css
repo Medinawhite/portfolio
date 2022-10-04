@@ -21,6 +21,7 @@
     border-radius: 0.5em;
     width: 80%;
     padding-bottom: 0.5em;
+    font-family: FuturaHeavi;
 }
 
 .skillscard img{
@@ -36,8 +37,9 @@
     justify-content: center;
     font-size: 100%;
     font-weight: bold;
-    font-family: 'Trebuchet MS';
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 5%;
+    letter-spacing: 0.07em;
 }
 
 .containerskill{

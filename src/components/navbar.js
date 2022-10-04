@@ -36,11 +36,10 @@ export default function Navbar  () {
         <Toolbar >
                 <Typography className="title" variant="h6" noWrap component="a" href="/"
                 sx={{
-                    flexGrow: 1,
                     mr: 10,
                     display: { xs: 'flex', md: 'flex' },
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
+                    flexGrow: 1,
+                    fontFamily: 'FuturaHeavi',
                     letterSpacing: '.1rem',
                     color: 'white',
                     textDecoration: 'none',
@@ -48,8 +47,9 @@ export default function Navbar  () {
                   Alejandro Medina
                 </Typography>
             <Box  sx={{display: { xs: 'flex', md: 'none' }}}>
-              <MenuIcon onClick={handleClick}></MenuIcon>
+              <MenuIcon onClick={handleClick} className='menuicon'></MenuIcon>
               <Menu
+                
                 id="menu-appbar"
                 anchorEl={anchorEl}
                 anchorOrigin={{

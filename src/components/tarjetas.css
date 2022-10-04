@@ -6,8 +6,8 @@
     min-width: 100vw;
 }
 .card{
-    width: 50em;
     height: auto;
+    width: 30vw;
     align-self: center;
     margin: 2em;
 }

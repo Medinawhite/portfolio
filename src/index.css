@@ -16,3 +16,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "FuturaBold";
+  src: local("FuturaBold"),
+   url('./fonts/futura/Futura-Bold-Italic-font.ttf') format("truetype");
+
+  
+
+  }
+
+@font-face {
+  font-family: "FuturaBook";
+  src: local("FuturaBook"),
+   url('./fonts/futura/Futura Book font.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaMedium";
+  src: local("FuturaMedium"),
+   url('./fonts/futura/futura medium bt.ttf') format("truetype");
+}
+
+
+@font-face {
+  font-family: "FuturaHeavi";
+  src: local("FuturaHeavi"),
+   url('./fonts/futura/Futura Heavy font.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "FuturaBoldn";
+  src: local("FuturaBoldn"),
+   url('./fonts/futura/Futura Bold font.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "Futuralight";
+  src: local("Futuralight"),
+   url('./fonts/futura/Futura Light font.ttf') format("truetype");
+}

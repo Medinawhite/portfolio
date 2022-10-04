@@ -19,21 +19,10 @@
     color: greenyellow;
     padding-top: 0.1em;
 }
-
-.options{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    width: 100%;
-    top: -700px;
-    left: -2000px;
-}
-.opciones{
+.menuicon{
     color: white;
-    text-decoration: none;
-    margin-right: 10px;
 }
+
 
 @media(max-width: 768px){
     .opciones{

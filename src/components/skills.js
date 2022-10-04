@@ -30,13 +30,13 @@ export default function Skills(){
                             <ul className="lista">
                                 <li ><img src={logo6} alt='logo'></img><p>JAVA SCRIPT</p></li>
                                 <li ><img src={logo14} alt='logo'></img><p>TYPE SCRIPT</p></li>
+                                <li ><img src={logo5} alt='logo'></img><p>HTML 5</p></li>
+                                <li ><img src={logo2} alt='logo'></img><p>CSS</p></li>
                             </ul>
                     </div>
                     <div className="skillscard">
                         <h1>FrontEnd</h1>
                             <ul className="lista">
-                                <li ><img src={logo5} alt='logo'></img><p>HTML 5</p></li>
-                                <li ><img src={logo2} alt='logo'></img><p>CSS</p></li>
                                 <li ><img src={logo11} alt='logo'></img><p>REACT</p></li>
                                 <li ><img src={logo12} alt='logo'></img><p>REDUX</p></li>
                                 <li ><img src={logo4} alt='logo'></img><p>F MOTION</p></li>

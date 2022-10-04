@@ -2,9 +2,10 @@ import React from 'react';
 import {useForm} from "react-hook-form"
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
-import image4 from "../imagenes/image4.jpg";
+import image4 from "../imagenes/fondo2.jpg";
 import { Parallax } from "react-parallax";
 import './contacto.css'
+import { TextField } from '@mui/material';
 
 
 export default function Contacto() {
@@ -14,13 +15,13 @@ export default function Contacto() {
 
 
     return (
-        <div id='contacto'>
+        <div id='contacto' >
             <Parallax className="imagefull" bgImage={image4} strength={100}>
                 <div className='containerform'>
                     <div className='formBox'>
                         <form onSubmit={handleSubmit(onSubmit)}>
-                            <label>Email</label>
-                            <input type='text' label="Email"{...register("mail", {
+                        <h1>CONTACTO</h1>
+                            <TextField variant="filled"  className='inputs'  type='text' label="Email"{...register("mail", {
                                 required: true,
                                 pattern: /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i
                                 })}
@@ -28,16 +29,14 @@ export default function Contacto() {
                             {errors.mail?.type === 'required' && <p role='alert'>*Campo requerido</p>}
                             {errors.mail?.type === 'pattern' && <p role='alert'>*El formato de la direccion de correo no es valido</p>}
 
-                            <label>Asunto</label>
-                            <input type='text' label="Asunto"{...register("asunto", {required: true})}
+                            <TextField className='inputs' variant="filled" type='text' label="Asunto"{...register("asunto", {required: true})}
                             aria-invalid={errors.asunto ? "true": "false"}/>
                             {errors.asunto?.type === 'required' && <p role='alert'>*Campo requerido</p>}
 
-                            <label>Texto</label>
-                            <textarea type='text' label="Texto" multiline rows={10}{...register("texto", {required: true})}
+                            <TextField className='inputs' variant="filled" type='text' label="Texto" multiline rows={10}{...register("texto", {required: true})}
                             aria-invalid={errors.texto ? "true": "false"}/>
                             {errors.texto?.type === 'required' && <p role='alert'>*Campo requerido</p>}
-
+                            
                             <Button variant="contained" endIcon={<SendIcon />} type="submit">
                                 Enviar
                             </Button>
