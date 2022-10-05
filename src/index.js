@@ -9,6 +9,7 @@ import './fonts/futura/Futura Book font.ttf'
 import './fonts/futura/Futura Heavy font.ttf'
 import './fonts/futura/Futura Bold font.ttf'
 import './fonts/futura/Futura Light font.ttf'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

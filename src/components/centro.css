@@ -29,20 +29,23 @@
     width: 100%;
 }
 
+
 .textos:nth-child(1){
     align-self: flex-start;
     margin-left: 5%;
     text-align: start;
+    align-items: center;
 }
 
 .textos:nth-child(2){
     align-self: flex-end;
     justify-content: flex-end;
     flex-direction: row-reverse;
+    align-items: center;
     margin-right: 5%;
 }
 
-.textos:nth-child(2) div{
+.textos2{
     display: flex;
     text-align: end;
     justify-content: center;
@@ -52,7 +55,7 @@
     border-radius: 0.2em;
 }
 
-.textos:nth-child(1) div{
+.textos1{
     display: flex;
     text-align: start;
     justify-content: center;
@@ -87,12 +90,11 @@
 
 
 .textos:nth-child(1) img{
-    width: auto;
-    height: auto;
+    width:  20vw;
     margin-right: 5%;
+    border: none;
 }
 .textos:nth-child(2) img{
-    width: auto;
-    height: auto;
+    width: 20vw;
     margin-left: 5%;
 }
