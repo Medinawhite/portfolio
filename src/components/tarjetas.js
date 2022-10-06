@@ -7,7 +7,7 @@ import { CardActionArea } from '@mui/material';
 import './tarjetas.css'
 import { motion, useInView} from "framer-motion";
 import { Parallax } from "react-parallax";
-import image2 from "../imagenes/verdenegro3.jpg";
+import image2 from "../imagenes/negro3.jpg";
 import image3 from "../imagenes/A sala llena.png";
 import image4 from "../imagenes/paises.png";
 import { Link } from '@mui/material'
@@ -18,9 +18,11 @@ export default function Tarjetas(){
     const isInView = useInView(ref, { once: false });
 
     return(
-        <div id='tarjetas'>
-            <Parallax strength={500} className="imageprincipal" bgImage={image2}>
-                    <motion.div  className='container3' ref={ref} initial={{scale: isInView ? 0.2:0}} animate={{ scale: isInView ? 1:0 }}   >
+        <div id='tarjetas'  >
+            <Parallax strength={500}  bgImage={image2} >
+            <div className="imageprincipal1">
+                <div  className="containercards">
+                    <motion.div ref={ref} initial={{scale: isInView ? 0.2:0}} animate={{ scale: isInView ? 1:0 }} transition={{duration: isInView ? 1:0}}  >
                         <Card className="card" >
                             <Link href='https://www.linkedin.com/feed/update/urn:li:activity:6892585573543202816/' target="_blank" rel="noopener" style={{textDecoration: 'none'}}>
                                 <CardActionArea >
@@ -42,6 +44,8 @@ export default function Tarjetas(){
                                 </CardActionArea>
                             </Link>
                         </Card>
+                        </motion.div>
+                        <motion.div ref={ref} initial={{scale: isInView ? 0.2:0}} animate={{ scale: isInView ? 1:0 }} transition={{duration: isInView ? 1:0}}  >
                         <Card  className="card" >
                             <Link href='https://www.linkedin.com/feed/update/urn:li:activity:6905146510649241600/' target="_blank" rel="noopener" style={{textDecoration: 'none'}}>
                                 <CardActionArea>
@@ -50,7 +54,7 @@ export default function Tarjetas(){
                                     height="140"
                                     image={image3}
                                     />
-                                    <CardContent>
+                                    <CardContent >
                                         <Typography gutterBottom variant="h5" component="div" color='black'>
                                             A Sala Llena
                                         </Typography>
@@ -67,6 +71,8 @@ export default function Tarjetas(){
                             </Link>
                         </Card>
                     </motion.div>
+                </div>
+            </div>
             </Parallax>
         </div>
 

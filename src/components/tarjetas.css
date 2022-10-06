@@ -1,14 +1,30 @@
 
-.container3{
+
+.imageprincipal1{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-self: center;
+    align-items: center;
     min-height: 100vh;
     min-width: 100vw;
+}
+
+.containercards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(116, 116, 116, 0.5);
+    width: 70vw;
+    border-radius: 2vw;
 }
 .card{
     height: auto;
     width: 30vw;
     align-self: center;
     margin: 2em;
+    background-color: rgb(171, 255, 46);
 }
+
 

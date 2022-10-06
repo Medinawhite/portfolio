@@ -11,12 +11,12 @@ export default function ParallaxPrincipal(){
 
     return (
         <div>
-            <Parallax strength={500} className="imageprincipal" bgImage={image2}  >
+            <Parallax strength={300} className="imageprincipal" bgImage={image2}  >
                     <div className='fase1' style={{height:'100%', width:'100%'}}>
                         <motion.div className='texto1'
-                            initial={{x:1000}}
+                            initial={{x:3000}}
                             animate={{x:0}}
-                            transition={{duration: 1}}
+                            transition={{duration: 1.2}}
                             >
                             <h1>Alejandro Medina</h1>
                             <h2>Full Stack Developer</h2>
@@ -32,12 +32,14 @@ export default function ParallaxPrincipal(){
                                 <Link href='https://www.linkedin.com/in/alejandro-medina-861a3b162/' target="_blank" rel="noopener"><img src={linkedin} alt='github'></img></Link>
                             </div>
                         </motion.div>
-                        <motion.div className="image1"
-                            initial={{opacity: 0, scale:0.5}}
-                            animate={{opacity:1, scale:1}}
-                            transition={{duration: 1}}
-                            ><img src={persona4} alt='imagen1' />
-                        </motion.div>
+                        <div className='imgcontainer'>
+                            <motion.div className="image1"
+                                initial={{opacity: 0, y:400}}
+                                animate={{opacity:1, y:0}}
+                                transition={{duration: 1.2}}
+                                ><img src={persona4} alt='imagen1' />
+                            </motion.div>
+                        </div>
                     </div>
                 </Parallax>
             </div>

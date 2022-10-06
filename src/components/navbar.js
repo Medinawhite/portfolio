@@ -8,14 +8,8 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Container from '@mui/material/Container';
-import {TemaPrincipal} from '../temas/Temaprincipal.js'
 import { Link } from "react-scroll";
 import './navbar.css'
-
-
-
-
-
 
 
 export default function Navbar  () {
@@ -31,7 +25,7 @@ export default function Navbar  () {
 
 
   return (
-    <AppBar position="sticky" theme={TemaPrincipal} color='transparent' >
+    <AppBar position="sticky"  color='transparent' >
       <Container maxWidth="xl">
         <Toolbar >
                 <Typography className="title" variant="h6" noWrap component="a" href="/"
@@ -49,7 +43,6 @@ export default function Navbar  () {
             <Box  sx={{display: { xs: 'flex', md: 'none' }}}>
               <MenuIcon onClick={handleClick} className='menuicon'></MenuIcon>
               <Menu
-                
                 id="menu-appbar"
                 anchorEl={anchorEl}
                 anchorOrigin={{
@@ -70,10 +63,10 @@ export default function Navbar  () {
               </Menu>
             </Box>
             <Box   className="nav-item"sx={{  display: { xs: 'none', md: 'flex' } }}>
-              <Button className="nav-item" color='inherit' ><Link  to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></Button>
-              <Button className="nav-item" color='inherit'><Link to="Skills" spy={true} smooth={true} offset={0} duration={50} >SKILLS</Link></Button>
-              <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></Button>
-              <Button className="nav-item" color='inherit'><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></Button>
+              <Button className="nav-item" color='inherit' ><Link  to="Principal" spy={true} smooth={true} offset={0} duration={1000}>SOBRE MI</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="Skills" spy={true} smooth={true} offset={0} duration={1000} >SKILLS</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={1000}>PROYECTOS</Link></Button>
+              <Button className="nav-item" color='inherit'><Link to="contacto" spy={true} smooth={true} offset={0} duration={1000}>CONTACTO</Link></Button>
             </Box>
         </Toolbar>
       </Container>

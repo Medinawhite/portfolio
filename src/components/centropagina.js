@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { Parallax } from "react-parallax";
 import './centro.css'
-import image from "../imagenes/fondo1.jpg";
-import database from "../logos/database.png";
+import image from "../imagenes/triangulos rojos.jpg";
+import database from "../logos/sequelize.png";
 import front from "../logos/React.png";
 import { motion, useInView } from "framer-motion"
 
@@ -13,7 +13,7 @@ export default function CentroPrincipal() {
 
     return (
         <div id='Principal' className="containercentro">
-            <Parallax bgImage={image} strength={500} blur={5} >
+            <Parallax bgImage={image} strength={500}  >
                 <div className="containermedio">
                     <div  className="containertextos">
                         <div className="textos">
