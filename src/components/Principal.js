@@ -24,8 +24,7 @@ export default function ParallaxPrincipal(){
                                                                 color: '#FFFFFF',
                                                                 alignContent: 'center',
                                                                 fontstyle: 'italic'}}>
-                            "Soy desarrollador Full-Stack con amplios conocimientos tanto en el Back-End como en el Front-End.
-                            Me considero un amante de la tecnología y del código. Con muchas ganas de empezar esta carrera y de aprender."
+                            "Toda la vida me he considerado un amante de la tecnología, sobre todo en el campo de la informática. He sido técnico informático por mas de 3 años y un día me dije ¡Vamos a probar con algo nuevo!. Ahí fue cuando descubrí la programación y lo que me apasionaba ver y escribir código. Desde entonces comprendí que mi carrera estaba en el mundo de la programación envuelto en código y creatividad."
                             </h3>
                             <div>
                                 <Link href='https://github.com/Medinawhite' target="_blank" rel="noopener"><img src={git} alt='github' ></img></Link>
