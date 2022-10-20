@@ -47,7 +47,7 @@ export default function Skills(){
                         transition={{duration: 1, delay: 0.5}}>
                         <h1>FrontEnd</h1>
                             <ul className="lista">
-                                <li ><img src={logo11} alt='logo'></img><p>REACT</p></li>
+                                <li ><img src={logo11} alt='logo'></img><p>REACT/REACT NATIVE</p></li>
                                 <li ><img src={logo12} alt='logo'></img><p>REDUX</p></li>
                                 <li ><img src={logo4} alt='logo'></img><p>F MOTION</p></li>
                                 <li ><img src={logo15} alt='logo'></img><p>WEBPACK</p></li>

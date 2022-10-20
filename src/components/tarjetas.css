@@ -36,11 +36,12 @@
 
 .card img{
     height: 20vh;
-    width: 10vw;
+    width: auto;
 }
 .card h2{
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 
 
@@ -87,4 +88,22 @@
     font-weight: 200;
     line-height: 2.5rem;
     margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .containercards{
+        flex-direction: column;
+        height: 90vh;
+    }
+    .card{
+        flex-direction: column;
+        height: 200%;
+        width: 100%;
+    }
+    .card img{
+        width: auto;
+    }
+    .card__inner{
+        display:none;
+    }
 }

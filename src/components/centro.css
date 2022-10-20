@@ -69,9 +69,8 @@
     color: white;
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
     width: 100%;
-    font-size: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     letter-spacing: 0.05em;
     line-height: 2em;
 }
@@ -83,8 +82,7 @@
     color: white;
     width: 100%;
     letter-spacing: 0.05em;
-    font-size: auto;
-    font-size: 2vw;
+    font-size: 2em;
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 
@@ -97,4 +95,66 @@
 .textos:nth-child(2) img{
     width: 20vw;
     margin-left: 5%;
+}
+
+@media screen and (max-width: 900px) {
+    .textos1{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        text-align: center;
+        padding: 0;
+    }
+    .textos2{
+        display: flex;
+        flex-direction: column;
+        border: none;
+        text-align: center;
+        padding: 0;
+    }
+    .textos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textos p{
+        color: white;
+        text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+        width: 100%;
+        font-family: Helvetica;
+        font-size: 0.8em;
+        letter-spacing: 0.05em;
+        line-height: 2em;
+    }
+    .textos h2{
+        font-family: FuturaHeavi;
+        color: white;
+        width: 100%;
+        letter-spacing: 0.05em;
+        font-size: 1.7em;
+        text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+    }
+    .textos:nth-child(1){
+        align-self: center;
+        align-items: center;
+        margin: 0;
+    }
+    .textos:nth-child(2){
+        align-self: center;
+        align-items: center;
+        margin: 0;
+    }
+    .containertextos{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+    }
+    .textos:nth-child(1) img{
+        display: none
+    }
+    .textos:nth-child(2) img{
+        display: none
+    }
 }

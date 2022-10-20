@@ -16,8 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    background-color: rgba(255, 255, 255, 9);
+    width: 50vw;
+    background-color: rgba(158, 158, 158, 0.7);
     border-radius: 20px;
     box-shadow: 20px 18px 0px rgba(0,0,0,.5);
 }
@@ -55,9 +55,10 @@
     text-align: center;
     justify-content: center;
     font-family: FuturaBook;
+    font-size: 100%;
     color: black;
     background-color: greenyellow;
-    width: 30%;
+    width: 50%;
     height: 6vh;
     border-radius: 5%;
     border: 3px solid #000000;
@@ -71,3 +72,8 @@
     color: greenyellow;
 }
 
+@media screen and (max-width: 900px) {
+    .formBox{
+        width: 90%;
+    }
+}
