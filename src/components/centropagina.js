@@ -60,7 +60,7 @@ export default function CentroPrincipal() {
                                     opacity: isInView ? 1 : 0,
                                     transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s",}}>
                                     <h2>BackEnd</h2>
-                                    <p>Respecto al Back-End he desarrollado diversas DB con Express administrando dichas bases de datos con PostgreSQL, creando las relaciones entre las distintas tablas de la DB y almacenandolas atraves de MongoDB. <br/> Para agregar, actualizar y eliminar datos de la DB utilizaba Sequelize que me ayudaba mucho a simular los comportamientos de la base de datos con las distintas URL. </p>
+                                    <p>Para el Back-End he desarrollado diversas API’s con Express como servidor creando con este las distintas rutas de acceso a los datos. Como ORM utilizo sequelizeSQL que es el que me permite que la DB entienda el codigo en JavaScript. <br/>Para alojar los datos uso Mongo DB o PostgreSQL creando con estos las tablas y relaciones para poder manejar y almacenar dichos datos. Un dato extra es que uso Postman para poder simular las peticiones de GET, PUT, DELETE a dicha API. </p>
                                     </motion.div>
                                 </div>
                         </div>
