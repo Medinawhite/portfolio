@@ -3,7 +3,7 @@ import {useForm} from "react-hook-form"
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
 
-import { Parallax } from "react-parallax";
+// import { Parallax } from "react-parallax";
 import './contacto.css'
 import { TextField } from '@mui/material';
 import emailjs from '@emailjs/browser'

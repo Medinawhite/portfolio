@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import { Parallax } from "react-parallax";
+// import { Parallax } from "react-parallax";
 
 import './skills.css'
 import logo1 from "../logos/Bootstrap_logo.png";
