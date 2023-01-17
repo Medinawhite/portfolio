@@ -1,6 +1,5 @@
 import React from 'react';
 import{Parallax} from "react-parallax";
-import image2 from "../imagenes/negro2.jpg";
 import persona4 from "../imagenes/persona4.png";
 import git from "../logos/git.png";
 import linkedin from "../logos/linkedin.png";

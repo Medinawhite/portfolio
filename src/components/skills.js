@@ -1,6 +1,6 @@
 import React, {useRef} from "react";
 import { Parallax } from "react-parallax";
-import image2 from "../imagenes/negroverde5.jpg";
+
 import './skills.css'
 import logo1 from "../logos/Bootstrap_logo.png";
 import logo2 from "../logos/css.png";

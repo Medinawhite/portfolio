@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import image4 from "../imagenes/image7.png";
+
 import './fullstack.css'
 
 
