@@ -24,9 +24,9 @@ export default function Home(){
 
     return (
         <>
-                <section>
+                
                 <motion.div style={{ y }}><ParallaxPrincipal/></motion.div>
-                </section>
+                
                 <section>
                 <motion.div style={{ y }}><CentroPrincipal/></motion.div>
                 </section>
