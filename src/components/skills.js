@@ -27,7 +27,7 @@ export default function Skills(){
 
     return(
         <div id='Skills' className="containerskills">
-            <Parallax className="imagefull" strength={500} blur={0} bgImage={image2} >
+            {/* <Parallax className="imagefull" strength={500} blur={0} bgImage={image2} > */}
                 <div className="containerskill">
                     <motion.div className="skillscard" ref={ref}
                         initial={{opacity:  0, scale: 0.5}}
@@ -69,7 +69,7 @@ export default function Skills(){
                             </ul>
                     </motion.div>
                 </div>
-            </Parallax>
+            {/* </Parallax> */}
         </div>
     )
 }

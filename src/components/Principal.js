@@ -11,7 +11,7 @@ export default function ParallaxPrincipal(){
 
     return (
         <div>
-            <Parallax strength={300} className="imageprincipal" bgImage={image2}  >
+            {/* <Parallax strength={300} className="imageprincipal" bgImage={image2}  > */}
                     <div className='fase1'>
                         <motion.div className='texto1'
                             initial={{x:3000}}
@@ -40,7 +40,7 @@ export default function ParallaxPrincipal(){
                             </motion.div>
                         </div>
                     </div>
-                </Parallax>
+                {/* </Parallax> */}
             </div>
     );
 }

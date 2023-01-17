@@ -23,7 +23,7 @@ export default function Contacto() {
 
     return (
         <div id='contacto' className='containercontacto'>
-            <Parallax className="imagefull" bgImage={image4} strength={500}>
+            {/* <Parallax className="imagefull" bgImage={image4} strength={500}> */}
                 <div className='containerform'>
                     <div className='formBox'>
                         <form onSubmit={handleSubmit(onSubmit)}>
@@ -74,7 +74,7 @@ export default function Contacto() {
                         </form>
                     </div>
                 </div>
-            </Parallax>
+            {/* </Parallax> */}
         </div>
     );
 }

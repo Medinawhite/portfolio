@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Parallax } from "react-parallax";
 import './centro.css'
-import image from "../imagenes/negroverde4.jpg";
+import image from "../imagenes/negro2.jpg";
 import database from "../logos/sequelize.png";
 import front from "../logos/React.png";
 import { motion, useInView } from "framer-motion"

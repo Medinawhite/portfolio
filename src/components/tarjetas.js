@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import './tarjetas.css'
 import { motion, useInView } from "framer-motion";
 import { Parallax } from "react-parallax";
-import image2 from "../imagenes/verdenegro6.jpg";
+import image2 from "../imagenes/negro2.jpg";
 import { Link } from '@mui/material'
 import image3 from "../logos/mascaras.png";
 import image4 from "../logos/mundo.png";
