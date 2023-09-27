@@ -58,14 +58,14 @@ export default function Navbar  () {
               >
                 <MenuItem   onClick={handleClose}><Link to="Principal" spy={true} smooth={true} offset={0} duration={50}>SOBRE MI</Link></MenuItem>
                 <MenuItem   onClick={handleClose}><Link to="Skills" spy={true} smooth={true} offset={0} duration={50}>SKILLS</Link></MenuItem>
-                <MenuItem   onClick={handleClose}><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></MenuItem>
+                {/* <MenuItem   onClick={handleClose}><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={50}>PROYECTOS</Link></MenuItem> */}
                 <MenuItem   onClick={handleClose}><Link to="contacto" spy={true} smooth={true} offset={0} duration={50}>CONTACTO</Link></MenuItem>
               </Menu>
             </Box>
             <Box   className="nav-item"sx={{  display: { xs: 'none', md: 'flex' } }}>
               <Button className="nav-item" color='inherit' ><Link  to="Principal" spy={true} smooth={true} offset={0} duration={1000}>SOBRE MI</Link></Button>
               <Button className="nav-item" color='inherit'><Link to="Skills" spy={true} smooth={true} offset={0} duration={1000} >SKILLS</Link></Button>
-              <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={1000}>PROYECTOS</Link></Button>
+              {/* <Button className="nav-item" color='inherit'><Link to="tarjetas" spy={true} smooth={true} offset={0} duration={1000}>PROYECTOS</Link></Button> */}
               <Button className="nav-item" color='inherit'><Link to="contacto" spy={true} smooth={true} offset={0} duration={1000}>CONTACTO</Link></Button>
             </Box>
         </Toolbar>

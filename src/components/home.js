@@ -33,9 +33,9 @@ export default function Home(){
                 <section>
                 <motion.div style={{ y }}><Skills/></motion.div>
                 </section>
-                <section>
+                {/* <section>
                 <motion.div style={{ y }}><Tarjetas/></motion.div>
-                </section>
+                </section> */}
                 <section>
                 <motion.div style={{ y }}><Contacto/></motion.div>
                 </section>
